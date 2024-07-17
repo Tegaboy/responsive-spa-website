@@ -876,3 +876,21 @@ body {
   z-index: -2;
   transition: 0.5s ease-out;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+/* about css */
+.background-head{
+  background-image: url('../img/about.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+.about-img{
+  aspect-ratio: 1;
+}
+.about-btn{
+  background-color: var(--primary-green);
+  width: 10em;
+}
