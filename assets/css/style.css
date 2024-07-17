@@ -3,7 +3,7 @@
   --light: #e9ecef;
   --mid-light: #dee2e6;
   --primary-green: #518581;
-  --primary-gold: #fdbcb4;
+  --primary-gold: #7e3548;
   --grey: #afadb5;
   --mid-black-color: #343a40;
   --thick-black-color: #151411;
@@ -350,7 +350,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   padding: 0;
-  background-image: url(/assets/img/bg\\(1\).jpg);
+  background-image: url(/assets/img/bg01.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -399,7 +399,7 @@ body {
 }
 .hero img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   height: 100vh;
 }
 
@@ -502,9 +502,9 @@ body {
   width: 100%;
   height: 100% !important;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 
 @media (min-width: 980px) {
@@ -544,7 +544,7 @@ body {
 .milestone {
   height: -moz-fit-content;
   height: fit-content;
-  background: rgba(0, 0, 0, 0.4) url(../img/bg\\(4\).jpg) 1rem 2rem;
+  background: rgba(0, 0, 0, 0.4) url(/assets/img/bg02.jpg) 1rem 2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -596,9 +596,9 @@ body {
 }
 .some-product .product-card img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
   height: 200px;
 }
 
@@ -645,7 +645,7 @@ body {
   width: 50px;
   border-radius: 50%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .feed-back .feed-back-profile .profile-details h4 {
   text-transform: capitalize;
@@ -656,6 +656,26 @@ body {
 .feed-back .feed-back-profile .profile-details p {
   font-size: var(--smaller-font-size);
   letter-spacing: normal;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.background-head {
+  background-image: url("../img/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+
+.about-img {
+  aspect-ratio: 1;
+}
+
+.about-btn {
+  background-color: var(--primary-green);
+  width: 10em;
 }
 
 /*--------------------------------------------------------------
@@ -879,7 +899,6 @@ body {
   display: none;
   z-index: -2;
   transition: 0.5s ease-out;
-<<<<<<< HEAD
 }
 
 ::-webkit-scrollbar {
@@ -897,25 +916,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
-}
-=======
 }/*# sourceMappingURL=style.css.map */
-
-
-
-/* about css */
-.background-head{
-  background-image: url('../img/about.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 25em;
-}
-.about-img{
-  aspect-ratio: 1;
-}
-.about-btn{
-  background-color: var(--primary-green);
-  width: 10em;
-}
->>>>>>> b8b2cb581aa30dedaf4548723ea48db5d0e25fe2

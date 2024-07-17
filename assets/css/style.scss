@@ -6,7 +6,7 @@
   --light: #e9ecef;
   --mid-light: #dee2e6;
   --primary-green: #518581;
-  --primary-gold: #fdbcb4;
+  --primary-gold: #7e3548;
   --grey: #afadb5;
   --mid-black-color: #343a40;
   --thick-black-color: #151411;
@@ -397,7 +397,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   padding: 0;
-  background-image: url(/assets/img/bg\\(1\).jpg);
+  background-image: url(/assets/img/bg01.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -625,7 +625,7 @@ body {
 
 .milestone {
   height: fit-content;
-  background: rgba(0, 0, 0, 0.4) url(../img/bg\\(4\).jpg) 1rem 2rem;
+  background: rgba(0, 0, 0, 0.4) url(/assets/img/bg02.jpg) 1rem 2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -758,6 +758,25 @@ body {
       }
     }
   }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.background-head {
+  background-image: url("../img/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+.about-img {
+  aspect-ratio: 1;
+}
+.about-btn {
+  background-color: var(--primary-green);
+  width: 10em;
 }
 
 /*--------------------------------------------------------------
